@@ -28,7 +28,7 @@ META:
     reference-directory: /path/to/references/
     gtf_biotypes: gtf_biotypes.yaml
 FILTER:
-    barcode_whitelist: ''
+    barcode-whitelist: ''
     5-prime-smart-adapter: AAAAAAAAAAA
     cell-barcode:
         start: 1
@@ -88,7 +88,7 @@ Please note the "space" after the colon, is needed for the yaml to work.
 * `gtf_biotypes` is the gtf_biotypes.yaml file containing the selection of biotypes you want to keep for your gene to read attribution. Using less biotypes may decrease your multimapping counts.
 
 ### [FILTER]
-* `barcode_whitelist` is the filename of your whitelist fi you have one. Well plate base protocols often have one.
+* `barcode-whitelist` is the filename of your whitelist fi you have one. Well plate base protocols often have one.
 * `5-prime-smart-adapter` is the 5" smart adapter used in your protocol.
 * `cell-barcode and UMI-barcode`: Is the section for cell/umi barcode filtering.
     * `start` is the first base position of your cell/umi barcode.

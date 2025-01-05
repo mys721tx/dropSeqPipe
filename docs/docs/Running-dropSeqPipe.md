@@ -76,7 +76,7 @@ In order to use this functionnality you just need to add a whitelist barcode fil
 
 ```
 FILTER:
-	barcode_whitelist: name_of_your_whitelist_file
+	barcode-whitelist: name_of_your_whitelist_file
 ```
 The file should be in the WORKING_DIR. Run the pipeline as usual.
 
