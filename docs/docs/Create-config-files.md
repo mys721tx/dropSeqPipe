@@ -137,7 +137,7 @@ This file holds the sample names, expected cell numbers and read length for each
 The file has to have this format:
 
 ```
-samples,expected_cells,read_lengths,batch
+samples,expected_cells,read_length,batch
 sample_name1,500,100,Batch1
 sample_name2,500,100,Batch2
 ```
